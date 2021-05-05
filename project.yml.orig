@@ -28,8 +28,7 @@ project.repositories:
 #
 repository.apache-mynewt-core:
     type: github
-    #vers: 1.7.0
-    vers: 0-dev
+    vers: 1.7.0
     user: apache
     repo: mynewt-core
 
@@ -38,5 +37,5 @@ repository.decawave-uwb-core:
     vers: 0-dev
     user: decawave
     repo: uwb-core
-    url: 'git@github.com:khhan0703/uwb-core.git'
+    url: 'git@github.com:Decawave/uwb-core.git'
 
