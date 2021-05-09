@@ -17,25 +17,15 @@
 # under the License.
 #
 
-project.name: "decawave-uwb-apps"
+pkg.name: apps/blinky
+pkg.type: app
+pkg.description: Basic example application which blinks an LED.
+pkg.author: "Apache Mynewt <dev@mynewt.apache.org>"
+pkg.homepage: "http://mynewt.apache.org/"
+pkg.keywords:
 
-project.repositories:
-    - apache-mynewt-core
-    - decawave-uwb-core
-
-# Use github's distribution mechanism for core ASF libraries.
-# This provides mirroring automatically for us.
-#
-repository.apache-mynewt-core:
-    type: github
-    vers: 1.7.0
-    user: apache
-    repo: mynewt-core
-
-repository.decawave-uwb-core:
-    type: git
-    vers: 0-dev
-    user: decawave
-    repo: uwb-core
-    url: 'git@github.com:khhan0703/uwb-core.git'
-
+pkg.deps:
+    - "@apache-mynewt-core/kernel/os"
+    - "@apache-mynewt-core/hw/hal"
+    - "@apache-mynewt-core/sys/console/stub"
+    - "@apache-mynewt-core/sys/log/stub"
