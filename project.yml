@@ -34,7 +34,7 @@ repository.apache-mynewt-core:
 
 repository.decawave-uwb-core:
     type: git
-    vers: 0-dev
+    vers: 0.1.1
     user: decawave
     repo: uwb-core
     url: 'git@github.com:khhan0703/uwb-core.git'
