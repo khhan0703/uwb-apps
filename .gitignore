@@ -49,3 +49,11 @@ apps/sixsense_r1/**/*.cmake
 apps/sixsense_r1/**/*.make
 apps/sixsense_r1/**/CMakeCache.txt
 apps/sixsense_r1/**/MakeFile
+
+
+./**/build/
+./**/CMakeFiles/
+./**/*.cmake
+./**/*.make
+./**/CMakeCache.txt
+./**/MakeFile

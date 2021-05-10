@@ -7,5 +7,4 @@ newt target set nrf5340_boot build_profile=optimized
 newt build nrf5340_boot
 newt create-image nrf5340_boot 1.0.0
 
-nrfjprog --recover
 newt load nrf5340_boot
